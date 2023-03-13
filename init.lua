@@ -44,8 +44,8 @@ lazy.setup({
 
 -- Plugin Options
 
-vim.cmd.colorscheme('onedark')
 -- LuaLine
+vim.cmd.colorscheme('onedark')
 vim.opt.showmode = false
 require('lualine').setup({
 	options = {
