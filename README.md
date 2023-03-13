@@ -1,6 +1,6 @@
 # nvim dotfiles
 
-This repository tracks my dotfiles for my personal nvim Setup. I plan to eventually outsource init.lua into separate files to navigate more easily and make the code easier to understand, but as of now I'm still trying to learn about all about nvim in general.
+This repository tracks my dotfiles for my personal nvim Setup. I plan to eventually outsource init.lua into separate files to navigate more easily and make the code easier to understand, but as of now I'm still trying to learn all about nvim in general.
 
 ## Table of Contents
 
