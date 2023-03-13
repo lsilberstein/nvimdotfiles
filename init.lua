@@ -1,13 +1,5 @@
 require('user.options')
-
--- keybinds
-vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>w', '<cmd>write<cr>')
-vim.keymap.set({'n', 'x'}, 'cp', '"+y')
-vim.keymap.set({'n', 'x'}, 'cv', '"+p')
-vim.keymap.set({'n', 'x'}, 'x', '"_x')
-vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>')
-vim.keymap.set('n', '<space><space>', '<cmd>Lexplore<cr>')
+require('user.keybinds')
 
 -- Plugin manager
 local lazy = {}
@@ -44,15 +36,5 @@ lazy.setup({
 
 -- Plugin Options
 
--- LuaLine
-vim.cmd.colorscheme('onedark')
-vim.opt.showmode = false
-require('lualine').setup({
-	options = {
-		theme = 'onedark',
-	},
-})
-
--- netwr
-vim.g.netrw_banner = 0
-vim.g.netrw_winsize = 30
+require('lualine.lualine')
+require('netwr/netwr')
