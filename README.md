@@ -5,7 +5,7 @@ This repository tracks my dotfiles for my personal nvim Setup. I plan to eventua
 ## Table of Contents
 
 1. [Installation](#installation)
-	1. [Additional Installations](#additional installations)
+	1. [Additional Installations](#additionalinstallations)
 2. [Tutorials](#tutorials)
 
 ## Installation <a name = 'installation'/>
@@ -20,7 +20,7 @@ Clone this repository into
 
 Starting nvim afterwards should do the rest.
 
-### Additional Installations <a name = 'additional installations'/>
+### Additional Installations <a name = 'additionalinstallations'/>
 
 Since the default Mac Terminal lacks quite some features I use iTerm2 with Nerdfonts (in particular 'Hasklug' Nerd Font). 
 For Window management I use a lightly configured tmux-Installation with 'oh-my-tmux'.
