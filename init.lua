@@ -32,6 +32,8 @@ lazy.setup({
 	-- list of plugins
 	{'nvim-lualine/lualine.nvim'},
 	{'joshdick/onedark.vim'},
+	{'nvim-tree/nvim-web-devicons'},
+	{'akinsho/bufferline.nvim'},
 })
 
 -- Plugin Options

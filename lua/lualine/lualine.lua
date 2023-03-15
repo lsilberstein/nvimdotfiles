@@ -4,5 +4,6 @@ vim.opt.showmode = false
 require('lualine').setup({
 	options = {
 		theme = 'onedark',
+		icons_enabled = true
 	},
 })
